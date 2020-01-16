@@ -72,7 +72,7 @@ if !(activeAFRF && activeUSAF && activeGREF) then {
 			"I_G_Mortar_01_F",
 			"I_static_AT_F",
 			"I_static_AA_F"
-			
+
 		];
 
 	} else {
@@ -90,7 +90,7 @@ if !(activeAFRF && activeUSAF && activeGREF) then {
 			"B_G_Mortar_01_F",
 			"B_static_AT_F",
 			"B_static_AA_F"
-			
+
 		];
 	};
 
@@ -117,26 +117,27 @@ if !(activeAFRF && activeUSAF && activeGREF) then {
 	guer_gear_BP_Engineer = "";
 } else {
 	guer_veh_technical_AT = "rhsgref_ins_g_uaz_spg9";
-	guer_stat_mortar = "rhsgref_ins_g_2b14";
-	guer_stat_MGH = "rhsgref_ins_g_DSHKM";
-	guer_stat_AT = "rhsgref_ins_g_SPG9M";
-	guer_stat_AA = "rhsgref_ins_g_ZU23";
+	guer_stat_mortar = "rhs_2b14_82mm_msv";
+	guer_stat_MGH = "rhsgref_hidf_m2_static";
+	guer_stat_AT = "RHS_TOW_TriPod_D";
+	//guer_stat_AA = "rhsgref_ins_g_ZU23";
+	guer_stat_AA = "RHS_Stinger_AA_pod_D";
 
 	guer_veh_AA = "rhsgref_ins_g_gaz66_r142";
 
 	vfs = [
 		"C_Offroad_01_F",
 		"C_Van_01_transport_F",
-		"rhs_uh1h_hidf_unarmed",
+		"RHS_Mi8amt_civilian",
 		"C_Quadbike_01_F",
-		"rhs_uaz_open_MSV_01",
+		"rhsgref_cdf_b_reg_uaz_open",
 		"B_G_Offroad_01_F",
-		"rhs_gaz66o_msv",
+		"rhsgref_cdf_b_gaz66o",
 		"B_G_Offroad_01_armed_F",
-		"rhs_DSHKM_ins",
+		"rhsgref_hidf_m2_static",
 		"rhs_2b14_82mm_msv",
-		"rhs_Kornet_9M133_2_vdv",
-		"rhs_Igla_AA_pod_msv",
+		"RHS_TOW_TriPod_D",
+		"RHS_Stinger_AA_pod_D",
 		"rhs_gaz66_r142_vdv",
 		"rhsgref_ins_g_ZU23",
 		"B_G_Offroad_01_AT_F"

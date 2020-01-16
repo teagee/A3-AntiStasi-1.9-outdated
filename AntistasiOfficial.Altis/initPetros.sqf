@@ -90,7 +90,7 @@ petros addMPEventHandler ["mpkilled", {
                 waitUntil {sleep 3; alive Slowhand};
                 if (activeACEMedical) then {
                     Slowhand setVariable ["ACE_isUnconscious",false,true];
-                    [Slowhand, Slowhand] call ace_medical_fnc_treatmentAdvanced_fullHeal;
+                    [Slowhand, Slowhand] call ace_medical_treatment_fnc_fullHeal;
                 };
                 [] remoteExec ["placementSelection",Slowhand];
             };

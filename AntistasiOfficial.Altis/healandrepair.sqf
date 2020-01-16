@@ -4,7 +4,7 @@ _posHQ = getMarkerPos guer_respawn;
 {
 	if (((side _x == side_blue) OR (side _x == civilian)) AND (_x distance _posHQ < 100)) then {
 		if (activeACEMedical) then {
-			[_x, _x] call ace_medical_fnc_treatmentAdvanced_fullHeal;
+			[_x, _x] call ace_medical_treatment_fnc_fullHeal;
     	} else {
       		_x setDamage 0;
 		};

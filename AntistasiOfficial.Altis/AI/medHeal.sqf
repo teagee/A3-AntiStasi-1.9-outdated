@@ -36,7 +36,7 @@ if (_medic != _unit) then {
 		};
 		sleep 10;
 		if (activeACEMedical) then {
-			[_unit, _unit] call ace_medical_fnc_treatmentAdvanced_fullHeal;
+			[_unit, _unit] call ace_medical_treatment_fnc_fullHeal;
 		};
 		[_unit, false] call AS_fnc_setUnconscious;
 		_medic stop false;
@@ -58,7 +58,7 @@ if (_medic != _unit) then {
 	};
 	sleep 10;
 	if (activeACEMedical) then {
-		[_unit, _unit] call ace_medical_fnc_treatmentAdvanced_fullHeal;
+		[_unit, _unit] call ace_medical_treatment_fnc_fullHeal;
 	};
 	_healed = true;
 };

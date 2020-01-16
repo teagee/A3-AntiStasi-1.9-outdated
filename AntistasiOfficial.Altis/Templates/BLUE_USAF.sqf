@@ -131,14 +131,19 @@
 	bluAT = [
 		"rhs_weap_M136_hedp",	//Tier 1 Standard, single use
 		"rhs_weap_smaw_optic",	//Tier 2
-		"rhs_weap_fgm148"		//Tier 3
+		"rhs_weap_fgm148",		//Tier 3
+		"rhs_weap_maaws",
+		"rhs_optic_maaws"
 
 	];
 
 	bluATMissile = [
 		"",								//Tier 1
 		"rhs_mag_smaw_HEAA",			//Only high tier
-		"rhs_fgm148_magazine_AT"		//Locking
+		"rhs_fgm148_magazine_AT",		//Locking
+		"rhs_mag_smaw_HEDP",
+		"rhs_mag_maaws_HEAT",
+		"rhs_mag_maaws_HEDP"
 	];
 
 	bluAA = [

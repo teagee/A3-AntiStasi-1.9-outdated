@@ -40,6 +40,21 @@ if !(count (lockedWeapons - _standardWeapons) == 0) then {
 // fireman 16/08 This ruin the rhs/extra mod _weapons
 // Untill no negative results this is a fix for the irish men
 
+if (activeAFRF) then {
+	_weapons = rhsWeaponsAFRF - rhsWeaponsAFRF_extra;
+	_accessories = rhsAccessoriesAFRF;
+
+		if (activeUSAF) then {
+			_weapons = _weapons + rhsWeaponsUSAF;
+			_accessories = _accessories + rhsAccessoriesUSAF;
+		};
+
+			if (activeACE) then {
+				_weapons = _weapons + aceWeapons;
+				_accessories = _accessories + aceAccessories;
+			};
+};
+
 _noGear = false;
 switch (_t) do {
 	case "ASRifles": {

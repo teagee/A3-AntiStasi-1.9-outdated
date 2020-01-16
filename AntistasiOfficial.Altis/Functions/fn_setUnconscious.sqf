@@ -16,3 +16,4 @@ if (isNull _player) exitWith {};
 [_player, _state] remoteExec ["setUnconscious", _player];
 _player setVariable ["ASunconscious", _state, true];
 _player setVariable ["ACE_isUnconscious", _state, true];
+[_player, _state] call ace_medical_fnc_setUnconscious; //test

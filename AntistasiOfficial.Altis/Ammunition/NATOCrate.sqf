@@ -70,7 +70,12 @@ _NATOSupp = _this select 1;
 			_crate addWeaponCargoGlobal 		[bluAT		 		select 2,	2	]; //AT Guided
 			_crate addMagazineCargoGlobal 		[bluATMissile 		select 2,	4	];
 			_crate addWeaponCargoGlobal 		[bluAT		 		select 1,	5	]; //AT Non guided + rockets
+			_crate addWeaponCargoGlobal 		[bluAT		 		select 3,	5	];
+			_crate addWeaponCargoGlobal 		[bluAT		 		select 4,	5	];
 			_crate addMagazineCargoGlobal 		[bluATMissile 		select 1,	10	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 3,	10	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 4,	10	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 5,	10	];
 			_crate addWeaponCargoGlobal 		[bluLMG		 		select 0,	5	]; // LMG
 			_crate addItemCargoGlobal			[bluScopes			select 1,	5	];
 			_crate addMagazineCargoGlobal 		[bluLMGAmmo 		select 0,	40	];
@@ -89,7 +94,12 @@ _NATOSupp = _this select 1;
 			_crate addWeaponCargoGlobal 		[bluAT		 		select 2,	1	]; //AT Guided
 			_crate addMagazineCargoGlobal 		[bluATMissile 		select 2,	2	];
 			_crate addWeaponCargoGlobal 		[bluAT		 		select 1,	2	]; //AT Non guided + rockets
+			_crate addWeaponCargoGlobal 		[bluAT		 		select 3,	2	];
+			_crate addWeaponCargoGlobal 		[bluAT		 		select 4,	2	];
 			_crate addMagazineCargoGlobal 		[bluATMissile 		select 1,	6	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 3,	6	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 4,	6	];
+			_crate addMagazineCargoGlobal 		[bluATMissile 		select 5,	6	];
 			_crate addWeaponCargoGlobal 		[bluLMG		 		select 0,	5	]; // LMG
 			_crate addItemCargoGlobal			[bluScopes			select 1,	5	];
 			_crate addMagazineCargoGlobal 		[bluLMGAmmo 		select 0,	20	];

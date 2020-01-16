@@ -792,7 +792,8 @@ rhsWeaponsUSAF = [
 	"rhs_weap_M136_hp",
 	"rhs_weap_m72a7",
 	"rhs_weap_fim92",
-	"rhs_weap_fgm148"
+	"rhs_weap_fgm148",
+	"rhs_weap_maaws"
 ];
 
 rhsMagazines = [
@@ -960,7 +961,8 @@ rhsAccessoriesUSAF = [
 	"rhsusf_acc_SpecterDR_D",
 	"rhsusf_acc_SpecterDR_OD",
 	"rhsusf_acc_SR25S",
-	"rhsusf_acc_wmx"
+	"rhsusf_acc_wmx",
+	"rhs_optic_maaws"
 ];
 
 _aToS = [
@@ -1073,15 +1075,15 @@ if (activeACE) then {
 		"ACE_surgicalKit",
 		"ACE_tourniquet",
 		"ACE_adenosine",
-		"ACE_atropine"		
+		"ACE_atropine"
 	];
 	// to support adv ace medical
-	if (isClass (configfile >> "CfgPatches" >> "adv_aceCPR")) then 
+	if (isClass (configfile >> "CfgPatches" >> "adv_aceCPR")) then
 	{
 		if(isClass (configfile >> "CfgPatches" >> "adv_aceSplint")) then
 		{
 			aceAdvMedItems = aceAdvMedItems + ["adv_aceSplint_splint","adv_aceCPR_AED"];
-		};			
+		};
 	};
 
 };

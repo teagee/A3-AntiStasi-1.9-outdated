@@ -39,7 +39,7 @@ _unit setDamage 0;
 _unit setVariable ["compromised",0];
 if (activeACEMedical) then {
 	_unit setVariable ["ACE_isUnconscious",false,true];
-	[_unit, _unit] call ace_medical_fnc_treatmentAdvanced_fullHeal;
+	[_unit, _unit] call ace_medical_treatment_fnc_fullHeal;
 };
 _nul = [0,-1,getPos _unit] remoteExec ["citySupportChange",2];
 

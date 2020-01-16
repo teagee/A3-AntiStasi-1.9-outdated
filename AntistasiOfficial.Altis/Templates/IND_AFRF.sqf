@@ -66,12 +66,12 @@ infList_crew = 		[sol_UN, sol_CREW, sol_CREW2, sol_CREW3, sol_CREW4, sol_DRV, so
 infList_pilots = 	[sol_HPIL, sol_HPIL2, sol_PIL];
 
 // Vehicles
-vehTrucks = 		["rhs_kamaz5350_open_vdv","rhs_kamaz5350_vdv","RHS_Ural_Open_VDV_01","RHS_Ural_VDV_01"]; // trucks that spawn at outposts, etc
-vehPatrol =			["rhs_tigr_m_vdv","RHS_Mi8mt_vvsc"]; // vehicles used for road patrols;
-if (activeGREF) then {vehPatrol = vehPatrol + ["rhsgref_BRDM2_HQ_vdv"];};
-vehAPC = 			["rhs_btr80_vdv"]; // APCs
-vehIFV = 			["rhs_bmp2d_vdv","rhs_bmp1p_vdv","rhs_bmd2m","rhs_bmd2k"]; // IFVs
-vehTank = 			["rhs_t72bb_tv","rhs_t72bd_tv","rhs_t90a_tv","rhs_t72be_tv","rhs_t80um"]; // MBTs
+vehTrucks = 		["rhs_kamaz5350_open_vdv","rhs_kamaz5350_vdv","RHS_Ural_Open_VDV_01","RHS_Ural_VDV_01","rhs_btr80_vdv"]; // trucks that spawn at outposts, etc
+vehPatrol =			["rhs_tigr_m_vdv","rhs_tigr_sts_vdv","RHS_Mi8mt_vvsc"]; // vehicles used for road patrols;
+if (activeGREF) then {vehPatrol = vehPatrol + ["rhsgref_BRDM2_HQ_vdv","rhsgref_BRDM2_vdv","rhsgref_BRDM2_ATGM_vdv"];};
+vehAPC = 			["rhs_btr80_vdv","rhs_btr80a_vdv"]; // APCs
+vehIFV = 			["rhs_bmp2d_vdv","rhs_bmp1p_vdv","rhs_bmd2m","rhs_bmd2k","rhs_bmp3mera_msv","rhs_bmp3_late_msv"]; // IFVs
+vehTank = 			["rhs_t72bb_tv","rhs_t72bd_tv","rhs_t90a_tv","rhs_t72be_tv","rhs_t80um","rhs_t80a","rhs_t80bvk","rhs_t80u","rhs_t80ue1","rhs_t80um","rhs_t90am_tv"]; // MBTs
 vehSupply = 		["rhs_gaz66_ammo_vdv","RHS_Ural_Fuel_VDV_01","rhs_gaz66_repair_vdv","rhs_gaz66_ap2_vdv"]; // supply vehicles (ammo, fuel, med)
 vehAmmo = 			"rhs_gaz66_ammo_vdv"; // ammo truck, for special missions
 vehFuel = 			["RHS_Ural_Fuel_VDV_01"]; // fuel truck for missions
@@ -92,9 +92,9 @@ var_AAF_groundForces = var_AAF_groundForces arrayIntersect var_AAF_groundForces;
 
 // Airforce
 heli_unarmed = 		["RHS_Mi8mt_Cargo_vvsc","RHS_Mi8MTV3_FAB_vvsc","RHS_Mi8AMTSh_FAB_vvsc","rhs_ka60_c"]; // (un-)armed transport helicopters
-heli_armed = 		["RHS_Mi24V_FAB_vdv","RHS_Mi24V_UPK23_vdv"]; // // armed helicopters
+heli_armed = 		["RHS_Mi24V_FAB_vdv","RHS_Mi24V_UPK23_vdv","RHS_Mi24P_vvs"]; // // armed helicopters
 heli_escort = 		"RHS_Mi8AMTSh_vvsc";
-planes = 			["RHS_Su25SM_vvsc"]; // attack planes
+planes = 			["RHS_Su25SM_vvsc","rhs_mig29sm_vvsc"]; // attack planes
 heli_default = 		"RHS_Mi8mt_vvsc";
 heli_transport = 	"RHS_Mi8mt_vvsc";
 indUAV_large = 		"I_UAV_02_F"; // large UAV, unarmed
